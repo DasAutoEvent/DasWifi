@@ -668,8 +668,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71efa07738e91b2408d61d0834548764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoefMove: 0.05
-  FireVFX: {fileID: 7241034052585141942, guid: cabe632922c0c6b4da79d70b27616706, type: 3}
+  CoefMove: 0.02
+  FireVFX: {fileID: 1202522996400206, guid: f87e7926fd589094b8a269e14b8bea5e, type: 3}
 --- !u!1 &1984789704
 GameObject:
   m_ObjectHideFlags: 0
