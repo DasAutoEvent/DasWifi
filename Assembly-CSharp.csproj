@@ -71,7 +71,7 @@
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_InspectorHelp.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
-    <Compile Include="Assets\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoParticle.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\RightZone.cs" />
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoAimer.cs" />
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoTarget.cs" />
+    <Compile Include="Assets\Scripts\LoadingScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VFX\Sources\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />

@@ -22,7 +22,7 @@ public class MainMenu : MonoBehaviour
 			RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
 			if (hit.collider != null)
 			{
-				SceneManager.LoadScene("SampleScene");
+				SceneManager.LoadScene("FakeLoading");
 
 			}
 
