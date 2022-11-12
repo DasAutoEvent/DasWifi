@@ -81,6 +81,7 @@
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoProjectile.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\VFX\Sources\25 sprite effects\Animation_seq.cs" />
+    <Compile Include="Assets\MainMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VFX\Sources\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />

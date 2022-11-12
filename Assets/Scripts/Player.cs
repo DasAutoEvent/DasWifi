@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Analytics;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -58,6 +59,7 @@ public class Player : MonoBehaviour
     internal void TriggerFire()
     {
 		this.animator.Play("Attack_" + this.getIndexFromAngle(this.fCurrentAngle).ToString());
+		SceneManager.LoadScene(sceneName: "MainMenu");
 	}
 
 
