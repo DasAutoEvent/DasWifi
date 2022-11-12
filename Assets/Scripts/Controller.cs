@@ -46,26 +46,16 @@ public class Controller : MonoBehaviour
 
 	public void BeginTouch(Vector2 mousePos2D)
 	{
-		RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-		if (hit.collider != null)
-		{
-			this.isCaptured = true;
-			this.CapturePos = mousePos2D;
-			this.Inner.transform.localPosition = new Vector3(0.0f, 0.0f);
-		}
+		this.isCaptured = true;
+		this.CapturePos = mousePos2D;
+		this.Inner.transform.localPosition = new Vector3(0.0f, 0.0f);
+		
 	}
 
 	public void MoveTouch(Vector2 mousePos2D)
 	{
 		if (!this.isCaptured)
 			return;
-
-		RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
-		if (hit.collider == null)
-		{
-			this.EndTouch();
-			return;
-		}
 
 		Vector2 Diff = (mousePos2D - this.CapturePos) / this.transform.localScale.x;
 
