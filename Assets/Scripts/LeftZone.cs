@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class LeftZone : MonoBehaviour
 {
@@ -75,7 +76,6 @@ public class LeftZone : MonoBehaviour
 		}
 		if (Input.GetMouseButtonUp(0) && this.isCapture)
 		{
-
 			this.Contoller.EndTouch();
 			this.Contoller.SetVisible(false);
 			this.isCapture = false;
