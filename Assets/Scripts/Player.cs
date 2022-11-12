@@ -12,9 +12,21 @@ public class Player : MonoBehaviour
 	{
 		public GameObject Go { get; set; }
 		public float LifreTrime { get; set; }
+		public float PauseTime { get; set; } = 0.3f;
+
+		public int State { get; set; } = 0;
+
 		public void Update(float dt)
 		{
-			this.LifreTrime -= dt;
+			if (State == 0)
+			{
+				PauseTime -= dt;
+
+			}
+			if (State == 1)
+			{
+				this.LifreTrime -= dt;
+			}
 		}
 	}
 
@@ -26,44 +38,37 @@ public class Player : MonoBehaviour
 	public GameObject FireVFX;
 
 	List<FireLife> fireLives = new List<FireLife>();
-
-	internal void UpdateInner()
-	{
-	}
-
-
-
+	uint WalkAnimId = 1;
 
     public void setAngle(float fAng)
     {
 		this.fCurrentAngle = fAng;
-		Debug.Log(this.fCurrentAngle);
-		this.animator.Play("Walk_" + this.getIndexFromAngle(this.fCurrentAngle).ToString(),-1);
 
-		//if (fAng >= -90.0f &&		fAng <= 90.0f )
-		//{
-		//	this.spriteRenderer.flipX = true;
-		//}
-		//else
-		//{
-		//	this.spriteRenderer.flipX = false;
-		//}
-
-
+		uint value = this.getIndexFromAngle(this.fCurrentAngle);
+		if (value != this.WalkAnimId)
+		{
+			this.animator.Play("Walk_" + this.getIndexFromAngle(this.fCurrentAngle).ToString(),-1);
+			this.WalkAnimId = value;
+		}
 	}
 
     public void SetDirection(Vector2 dir)
     {
         this.transform.position += new Vector3( dir.x, dir.y) * CoefMove;
 
-    }
+		Vector3 camPos = Camera.main.transform.position;
+		camPos.x = this.transform.position.x;
+		camPos.y = this.transform.position.y;
+		Camera.main.transform.position = camPos;
+
+
+	}
 
         // Start is called before the first frame update
     void Start()
     {
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         this.animator = GetComponent<Animator>();
-
 	}
 
     // Update is called once per frame
@@ -72,6 +77,14 @@ public class Player : MonoBehaviour
 		foreach( FireLife fireLife in fireLives)
 		{
 			fireLife.Update(Time.deltaTime);
+			if (fireLife.State ==0 && fireLife.PauseTime < 0.0f)
+			{
+				fireLife.State = 1;
+				GameObject go = Instantiate(this.FireVFX, this.transform.position, Quaternion.identity);
+				fireLife.Go = go;
+				this.BoundEnemies();
+			}
+
 			if (fireLife.LifreTrime < 0.0f)
 			{
 				Destroy(fireLife.Go);
@@ -79,15 +92,17 @@ public class Player : MonoBehaviour
 		}
     }
 
+	private void BoundEnemies()
+	{
+		
+	}
+
     internal void TriggerFire()
     {
-		this.animator.Play("Attack_" + this.getIndexFromAngle(this.fCurrentAngle).ToString());
-		GameObject go= Instantiate(this.FireVFX, this.transform.position, Quaternion.identity);
+		this.animator.Play("Attack_" + this.WalkAnimId.ToString());
 
 		FireLife fl = new FireLife();
-		fl.Go = go;
 		fl.LifreTrime = 1.0f;
-
 		fireLives.Add(fl);
 	}
 
@@ -128,7 +143,7 @@ public class Player : MonoBehaviour
 
 			float fStart = 0.0f;
 			float fTop = 22.5f;
-			for (int i = 0; i <= 3; i++)
+			for (int i = 0; i < 5; i++)
 			{
 				if (fAngle >= fStart && fAngle <= fTop)
 				{
