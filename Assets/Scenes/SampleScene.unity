@@ -352,7 +352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb050ce5f0f448e46b2515ebf535840b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerPrefab: {fileID: 1089448487}
+  PlayerPrefab: {fileID: 1782072569}
 --- !u!61 &715298050
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -509,11 +509,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8addd64daf02b4444b2e7661743e5139, type: 3}
---- !u!1 &1089448487 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6249805456324449133, guid: bd5062e68dd498543af73cdfa311f6d8, type: 3}
-  m_PrefabInstance: {fileID: 6249805457396595018}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1089448489 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6249805456324449123, guid: bd5062e68dd498543af73cdfa311f6d8, type: 3}
@@ -772,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6538313108448399403, guid: 8e628af497a08934ea6a304219929be9, type: 3}
       propertyPath: m_Name
-      value: Cyber_Demon
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e628af497a08934ea6a304219929be9, type: 3}
@@ -841,7 +836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6249805456324449133, guid: bd5062e68dd498543af73cdfa311f6d8, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Cupid
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd5062e68dd498543af73cdfa311f6d8, type: 3}
