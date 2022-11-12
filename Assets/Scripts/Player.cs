@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    float fCoefMove = 0.001f;
+    public float CoefMove = 0.001f;
     SpriteRenderer spriteRenderer;
 	internal void UpdateInner()
 	{
@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
 
     public void SetDirection(Vector2 dir)
     {
-        this.transform.position += new Vector3( dir.x, dir.y) * fCoefMove;
+        this.transform.position += new Vector3( dir.x, dir.y) * CoefMove;
 
     }
 

@@ -74,8 +74,8 @@ public class Controller : MonoBehaviour
 		float Radius = newPos.magnitude;
 		Radius = Math.Clamp(Radius, 0.0f, 0.4f);// hardcode!
 
-		this.Direction = newPos.normalized;
-		this.Inner.transform.localPosition = this.Direction * Radius;
+		this.Direction = newPos.normalized * Radius;
+		this.Inner.transform.localPosition = this.Direction ;
 		this.CapturePos = mousePos2D;
 
 		this.Angle = Mathf.Atan2(this.Inner.transform.localPosition.y, this.Inner.transform.localPosition.x) * Mathf.Rad2Deg;
