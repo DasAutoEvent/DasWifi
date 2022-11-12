@@ -41,4 +41,9 @@ public class Player : MonoBehaviour
     {
         
     }
+
+    internal void TriggerFire()
+    {
+        Debug.Log("HEART FIRE!!");
+    }
 }
