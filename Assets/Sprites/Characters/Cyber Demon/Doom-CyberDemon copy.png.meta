@@ -1,0 +1,2149 @@
+fileFormatVersion: 2
+guid: caebf9b29cfc251438e5723696c1be6b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1048
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09498a7ae7d7ad949b4ce7811cd2c831
+      internalID: -1681438110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1048
+        width: 85
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b7514ed76b92f4dbf5e6e89cd14b33
+      internalID: 1753846226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_2
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1048
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6803eaad42abb4399f8083778c1e25
+      internalID: -68503447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 1048
+        width: 85
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d052dbaed462242ab8365be4a426b6
+      internalID: -114724631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_4
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 1048
+        width: 86
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae20a1ff17e5724ab048e05189a9562
+      internalID: 1479722328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_5
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1048
+        width: 99
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02d705f433939c4aa12678215f79c64
+      internalID: 703060736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 935
+        width: 87
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94e1d7dd8ddd1ed4ab0c11b069da3d90
+      internalID: -71745151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_7
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 935
+        width: 74
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b16908c8e48374d8d8e6f10170d8b0
+      internalID: -1504158328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 935
+        width: 81
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62616a261dc7d7743be42332aec7af02
+      internalID: 1366279146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_9
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 935
+        width: 74
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7eb41ca32958741bd130ebbc324dc9
+      internalID: 124466035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_10
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 935
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e90a8708ec5da4a9d7a2859d1c4990
+      internalID: 746267439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_11
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 935
+        width: 94
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bdf1f9441206044aa6c382bd4e71771
+      internalID: -453068286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 823
+        width: 79
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6edb240ea1199f440aeb970e117e7dd9
+      internalID: 1136784037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_13
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 823
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2b52371710bfe449561f6ad02ff39f
+      internalID: -1757716690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 823
+        width: 80
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3644b8c38effff14cb53e09f554eebb9
+      internalID: -817841722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_15
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 823
+        width: 59
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423821698cc787d44bdc2006e0679e64
+      internalID: -2084888330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_16
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 823
+        width: 105
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04220575bec15ad499d5b23b4a7945a6
+      internalID: -2111537510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_17
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 823
+        width: 121
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5a80f678d30664b93cdfa1c1dda8eb
+      internalID: 756652995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_18
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 710
+        width: 76
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016b646da4ac79e4cb809a87279b6447
+      internalID: 1185213924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_19
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 710
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00331d2199cd544783ad5c761533fdd
+      internalID: -1251176507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 709
+        width: 92
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df63aeeb06b7e14b81d0c8e78392930
+      internalID: 389536476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_21
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 710
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b37da35d2c1f7949bc9f0f44e8f0a09
+      internalID: 1966784309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 710
+        width: 106
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e3e1f58e7705d47b9a132a172b3ca0
+      internalID: 692447180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_23
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 710
+        width: 119
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6cadc607238af4c8e80319bc43dcb2
+      internalID: -2049215382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 597
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf6127c669a42341a8ec31aeb0be63c
+      internalID: 139955726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_25
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 597
+        width: 84
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b653a577395da4ebb47a0b63f14cc2
+      internalID: -495501536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_26
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 597
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ad6444b5c060648957cfc8bb5faae4
+      internalID: -1968197807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 597
+        width: 84
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c74508b653bfdb4b8f52149dac056b4
+      internalID: 1877480058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_28
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 597
+        width: 85
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4acb3a52238f464d8b0a163a1370ae7
+      internalID: 368500981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_29
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 597
+        width: 89
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba8381cecde3d4489c7a4a9d04724ad
+      internalID: 831042367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_30
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 484
+        width: 83
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44eaa6dc32aead94d8cb1517632a1a6d
+      internalID: 421408536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_31
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 484
+        width: 75
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ee937d2b487a40a312d5c8216c17e
+      internalID: -2047202524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_32
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 484
+        width: 80
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fabe41c635bcdc741b942f32bd996ab9
+      internalID: 2111155350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_33
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 484
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7182b81f52f0a7a45aa21d720723b5a7
+      internalID: 1036158855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_34
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 484
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b59d3d264c0a844bcee45b0f5fcdc5
+      internalID: 1469910301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_35
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 484
+        width: 93
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388f0eefe8eb12243be8e6bd0375b7a7
+      internalID: -1853183650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_36
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 370
+        width: 84
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d967dd8e151d305428644e276ec043d3
+      internalID: 1532789476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 370
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af2bed06845248479c7b2ba3639f7ea
+      internalID: -1947433085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_38
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 370
+        width: 74
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11c93c06d7bc274aaa81705659d3f49
+      internalID: 295080740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_39
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 370
+        width: 59
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77494b340523b4644bb5790b674bb537
+      internalID: -1534207783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_40
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 370
+        width: 97
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec22b8dcb3ec754a83ca246bbebd5e3
+      internalID: -609041498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_41
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 370
+        width: 114
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f5fd91a927bf04a8dc7b271b164de8
+      internalID: 656948892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_42
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 255
+        width: 75
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06dfcd2664ca544e81edde88352f6d0
+      internalID: 604501610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_43
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 255
+        width: 83
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a47821ef5bebe4a92d737fd2b45dc4
+      internalID: -1665184017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_44
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 255
+        width: 95
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7f1cb891f1dbc499a92db37f1f3f8b
+      internalID: -1092091488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_45
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 255
+        width: 83
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad5e46fcf3a5f1458172aa5e2095307
+      internalID: -117066192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_46
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 255
+        width: 115
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf615712eb709c945a88b43695201648
+      internalID: -27489583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_47
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 255
+        width: 130
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c0e0f949435c342ad59d39986a4757
+      internalID: -1981430316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 123
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600d2e72a0e4bd542a627d26abd02f4d
+      internalID: 1840879716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_49
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 142
+        width: 91
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc05eb9687cef35429626c24ef776e07
+      internalID: -1060118915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_50
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 142
+        width: 94
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d0cd8c9f3c8c140b6f2b1214bc6972
+      internalID: -1381991073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_51
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 142
+        width: 118
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c96bebec4e51d47b06e85b67a2e334
+      internalID: -1956172862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_52
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 142
+        width: 102
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb225559b58c9864b957035d23007b99
+      internalID: 145310001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_53
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 142
+        width: 91
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953817cc1ba22b247bd2807f84a54d35
+      internalID: 1437161663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_54
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 142
+        width: 75
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce2bebc2a8874d4aa6f6af75b472902
+      internalID: -1367727425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_55
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 142
+        width: 107
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6eefb588a2c8446b42211406a0aa91
+      internalID: -399589895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_56
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 4
+        width: 125
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76768b7ccb59bf84b9052a3fb405f60c
+      internalID: 1094568971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_57
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 4
+        width: 136
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e14e259c15d6b4a868d76adb5af586
+      internalID: 1900553417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_58
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 4
+        width: 147
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01317c4df2b7836469e2aece88ba7e87
+      internalID: 1349393321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_59
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 114
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5516169c48f5cc47a211e6788981ed2
+      internalID: -1048289005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_60
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 122
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d57b3202bf08374eb9869952da16972
+      internalID: 1889392045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_61
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 106
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2754a259c5ad6c44f85a3444271c860c
+      internalID: 948315439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_62
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 123
+        width: 28
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c410c2595daeee42bffe9b4f7a92374
+      internalID: 840950071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_63
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 107
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe42394726a25754f8444e6157ba1fce
+      internalID: 2117834927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_64
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 4
+        width: 122
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30a329118a98974b8c27c514b69a717
+      internalID: 2013304633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_65
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 4
+        width: 111
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a742f441227ac1043abb87b842de10be
+      internalID: 1701205619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_66
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 4
+        width: 100
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8b77ffbd0ef9841a891159a0bf4644
+      internalID: -315241730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_67
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 4
+        width: 113
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be85670afbed7a14485d2d96ad8129a5
+      internalID: -195029794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_68
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 81
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03eb57c84479e034fb27a7619bc667c6
+      internalID: 1329111654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_69
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 109
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e6f7884a22b9a439f7e46fb14fdea6
+      internalID: 991425599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_70
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38659e291065684e98fe06d96a3d38a
+      internalID: 1788246228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_71
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 72
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc15f4255e8d3a4897f61f8d9468cad
+      internalID: 74814909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_72
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 98
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4911c94eef6bc144b9ccfb6133a2ffc8
+      internalID: 1466869030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_73
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 96
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e284d74960f2b544b82b6fc66df9336
+      internalID: -727490577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_74
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 90
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575a2898cdcc1c2419fd19bf6d61ee44
+      internalID: -1749676754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_75
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 81
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5736dfd9e43120443abe4993f1ba8037
+      internalID: -1435381553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_76
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 55
+        width: 26
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cf096670805d8418ef10d317516c8e
+      internalID: 337011001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_77
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 84
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f56bb966d6b7a646b8dfdef8e7c7ed4
+      internalID: -1636998194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_78
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 39
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ad915d42ee9d34abbb46cd9a15e094
+      internalID: -693437048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_79
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 30
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7293d74871b0e3042bba53dadec3457d
+      internalID: 1418823067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_80
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 66
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d29b8c1cf5bd2e4ea2e336a064962c5
+      internalID: 494303646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_81
+      rect:
+        serializedVersion: 2
+        x: 1002
+        y: 66
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8937da0ba2283c44f92e5c7b8f7df897
+      internalID: 924019721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_82
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 47
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427e50df7b899454caf73df1e5204b1d
+      internalID: -872123151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_83
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 47
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24287f69c653c7f4baa022af3bdb0203
+      internalID: -1644303582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_84
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 37
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ed0bed2c2f8c24782ff2640700eaea
+      internalID: 42368045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_85
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 27
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8762d2bcd1e37e94993b4719be32d7c7
+      internalID: 368870803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_86
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 4
+        width: 127
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2e16637dc17334b8e8786255568ed5
+      internalID: -1810370365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_87
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 19
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff06ea0f62b1e04499e96266bf06dc47
+      internalID: -309340077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_88
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 13
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cef6a901210724889b0a859b5904ab
+      internalID: 1686464094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_89
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 16
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c45116e49cf58946921dcc5de9d99a1
+      internalID: -496863417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Doom-CyberDemon copy_90
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 4
+        width: 124
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94f1047aad7c6b4084a713825813b8c
+      internalID: -118440476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Doom-CyberDemon copy_27: 1877480058
+      Doom-CyberDemon copy_22: 692447180
+      Doom-CyberDemon copy_16: -2111537510
+      Doom-CyberDemon copy_21: 1966784309
+      Doom-CyberDemon copy_10: 746267439
+      Doom-CyberDemon copy_41: 656948892
+      Doom-CyberDemon copy_30: 421408536
+      Doom-CyberDemon copy_39: -1534207783
+      Doom-CyberDemon copy_44: -1092091488
+      Doom-CyberDemon copy_87: -309340077
+      Doom-CyberDemon copy_90: -118440476
+      Doom-CyberDemon copy_79: 1418823067
+      Doom-CyberDemon copy_69: 991425599
+      Doom-CyberDemon copy_51: -1956172862
+      Doom-CyberDemon copy_80: 494303646
+      Doom-CyberDemon copy_85: 368870803
+      Doom-CyberDemon copy_42: 604501610
+      Doom-CyberDemon copy_88: 1686464094
+      Doom-CyberDemon copy_11: -453068286
+      Doom-CyberDemon copy_52: 145310001
+      Doom-CyberDemon copy_49: -1060118915
+      Doom-CyberDemon copy_40: -609041498
+      Doom-CyberDemon copy_17: 756652995
+      Doom-CyberDemon copy_37: -1947433085
+      Doom-CyberDemon copy_50: -1381991073
+      Doom-CyberDemon copy_68: 1329111654
+      Doom-CyberDemon copy_6: -71745151
+      Doom-CyberDemon copy_64: 2013304633
+      Doom-CyberDemon copy_4: 1479722328
+      Doom-CyberDemon copy_70: 1788246228
+      Doom-CyberDemon copy_35: -1853183650
+      Doom-CyberDemon copy_48: 1840879716
+      Doom-CyberDemon copy_59: -1048289005
+      Doom-CyberDemon copy_7: -1504158328
+      Doom-CyberDemon copy_54: -1367727425
+      Doom-CyberDemon copy_47: -1981430316
+      Doom-CyberDemon copy_31: -2047202524
+      Doom-CyberDemon copy_24: 139955726
+      Doom-CyberDemon copy_28: 368500981
+      Doom-CyberDemon copy_43: -1665184017
+      Doom-CyberDemon copy_5: 703060736
+      Doom-CyberDemon copy_29: 831042367
+      Doom-CyberDemon copy_65: 1701205619
+      Doom-CyberDemon copy_57: 1900553417
+      Doom-CyberDemon copy_78: -693437048
+      Doom-CyberDemon copy_56: 1094568971
+      Doom-CyberDemon copy_2: -68503447
+      Doom-CyberDemon copy_60: 1889392045
+      Doom-CyberDemon copy_67: -195029794
+      Doom-CyberDemon copy_14: -817841722
+      Doom-CyberDemon copy_9: 124466035
+      Doom-CyberDemon copy_58: 1349393321
+      Doom-CyberDemon copy_72: 1466869030
+      Doom-CyberDemon copy_63: 2117834927
+      Doom-CyberDemon copy_15: -2084888330
+      Doom-CyberDemon copy_12: 1136784037
+      Doom-CyberDemon copy_62: 840950071
+      Doom-CyberDemon copy_34: 1469910301
+      Doom-CyberDemon copy_81: 924019721
+      Doom-CyberDemon copy_84: 42368045
+      Doom-CyberDemon copy_77: -1636998194
+      Doom-CyberDemon copy_13: -1757716690
+      Doom-CyberDemon copy_82: -872123151
+      Doom-CyberDemon copy_38: 295080740
+      Doom-CyberDemon copy_25: -495501536
+      Doom-CyberDemon copy_32: 2111155350
+      Doom-CyberDemon copy_1: 1753846226
+      Doom-CyberDemon copy_23: -2049215382
+      Doom-CyberDemon copy_71: 74814909
+      Doom-CyberDemon copy_83: -1644303582
+      Doom-CyberDemon copy_45: -117066192
+      Doom-CyberDemon copy_46: -27489583
+      Doom-CyberDemon copy_55: -399589895
+      Doom-CyberDemon copy_0: -1681438110
+      Doom-CyberDemon copy_66: -315241730
+      Doom-CyberDemon copy_33: 1036158855
+      Doom-CyberDemon copy_8: 1366279146
+      Doom-CyberDemon copy_86: -1810370365
+      Doom-CyberDemon copy_26: -1968197807
+      Doom-CyberDemon copy_73: -727490577
+      Doom-CyberDemon copy_20: 389536476
+      Doom-CyberDemon copy_3: -114724631
+      Doom-CyberDemon copy_76: 337011001
+      Doom-CyberDemon copy_89: -496863417
+      Doom-CyberDemon copy_18: 1185213924
+      Doom-CyberDemon copy_74: -1749676754
+      Doom-CyberDemon copy_53: 1437161663
+      Doom-CyberDemon copy_36: 1532789476
+      Doom-CyberDemon copy_75: -1435381553
+      Doom-CyberDemon copy_19: -1251176507
+      Doom-CyberDemon copy_61: 948315439
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
