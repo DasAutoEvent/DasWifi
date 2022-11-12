@@ -35,6 +35,14 @@ public class LeftZone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if (this.Player.isWin())
+		{
+			this.Contoller.EndTouch();
+			this.Contoller.SetVisible(false);
+			this.isCapture = false;
+			return;
+		}
+
 
 		if (Input.GetMouseButtonDown(0))
 		{

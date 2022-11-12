@@ -18,6 +18,11 @@ public class RightZone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+		if (this.Player.isWin())
+		{
+			return;
+		}
+
 		if (Input.GetMouseButtonDown(0))
 		{
 			Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
