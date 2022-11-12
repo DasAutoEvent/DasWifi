@@ -30,17 +30,23 @@ public class Player : MonoBehaviour
 		}
 	}
 
-	public float CoefMove = 0.001f;
-	float fCurrentAngle = 0.0f;
-    SpriteRenderer spriteRenderer;
-    Animator animator;
+
 
 	public GameObject FireVFX;
+	public int EnemiesToKill = 30;
+	public float LoveRadius = 5.0f;
+
+
+
 
 	List<FireLife> fireLives = new List<FireLife>();
 	uint WalkAnimId = 1;
+	public float CoefMove = 0.001f;
+	float fCurrentAngle = 0.0f;
+	SpriteRenderer spriteRenderer;
+	Animator animator;
 
-    public void setAngle(float fAng)
+	public void setAngle(float fAng)
     {
 		this.fCurrentAngle = fAng;
 
