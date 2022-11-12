@@ -1,0 +1,719 @@
+fileFormatVersion: 2
+guid: 54c7cd9620037c349bd0c6431736f77d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1386
+        width: 222
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ba6f5a63e55e2478b60fdd3c83ab06
+      internalID: 2101161109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1189
+        width: 222
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964683c9e4b22f743b33612a3428e480
+      internalID: 2138668479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_2
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1190
+        width: 217
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f872e5f4c4a954684849949300b7be
+      internalID: -1983257339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 985
+        width: 208
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5397e484d1e024f862a75b356fb342
+      internalID: -413995284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_4
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 995
+        width: 216
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ed7d938fd2e5c4cac95372b403d6b4
+      internalID: 1892828424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 798
+        width: 198
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a5d9259aebb1b64c8ec47612d8f2ced
+      internalID: 277887477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 797
+        width: 216
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07d4abb50bfc9f48be29506e06bf5a1
+      internalID: -267969350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_7
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 810
+        width: 173
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f125f6f6af27c5349895eda370c2f071
+      internalID: 1718710571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_8
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 789
+        width: 185
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0286304705c203241b6cc1419b02f200
+      internalID: 569888692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 599
+        width: 216
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac841cc593afc244a6a4cf85aea1e58
+      internalID: -475039085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 599
+        width: 216
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d72bec52a8f844db6f66e51e450f08
+      internalID: -1599388779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_11
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 610
+        width: 164
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071c18c91b381d743b634e87c682846f
+      internalID: 554408010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_12
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 610
+        width: 160
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79b82bad35112254fa47e039e46e6693
+      internalID: 1532166021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_13
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 606
+        width: 164
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a25a651702a0f4d9d40bf21da3dc5b
+      internalID: -301759596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 400
+        width: 218
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a2acf8dde8b3642a784a84b4d58ee7
+      internalID: 711268951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_15
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 399
+        width: 215
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94ab07c13d4296f45a58e8b02200eee4
+      internalID: -693157075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_16
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 407
+        width: 173
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dbfb73d76a949e45b8c8f8ce3ee8903
+      internalID: 472482862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_17
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 407
+        width: 157
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05894af789caab742a2f4d7eddd43908
+      internalID: -1645230305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 201
+        width: 221
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc3cf39e444a943ac8ef243b3366c9
+      internalID: -27704978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_19
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 199
+        width: 220
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9512a19749ca9409924835e96d37fd
+      internalID: 1028130770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_20
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 203
+        width: 185
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b835f151cbef274f9670cf6ffda22ef
+      internalID: 1045934000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_21
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 205
+        width: 154
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae032a39306b614e8a1b9f23daed50b
+      internalID: 658404356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2
+        width: 222
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c518e6b4622dbd4186803b4f8bc89d0
+      internalID: 484975860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_23
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 1
+        width: 221
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214bb28ccd23d04ebcc84173b2eba14
+      internalID: 1773925481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_24
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 1
+        width: 209
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466e1d8bdf3dfaf40b4c302e36fce16e
+      internalID: -304080574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SeekPng.com_yooka-laylee-png_2345803_25
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1
+        width: 198
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bf09a2a3b80b9a458724edf102b456f
+      internalID: -2083479906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SeekPng.com_yooka-laylee-png_2345803_16: 472482862
+      SeekPng.com_yooka-laylee-png_2345803_0: 2101161109
+      SeekPng.com_yooka-laylee-png_2345803_8: 569888692
+      SeekPng.com_yooka-laylee-png_2345803_10: -1599388779
+      SeekPng.com_yooka-laylee-png_2345803_18: -27704978
+      SeekPng.com_yooka-laylee-png_2345803_3: -413995284
+      SeekPng.com_yooka-laylee-png_2345803_1: 2138668479
+      SeekPng.com_yooka-laylee-png_2345803_15: -693157075
+      SeekPng.com_yooka-laylee-png_2345803_14: 711268951
+      SeekPng.com_yooka-laylee-png_2345803_19: 1028130770
+      SeekPng.com_yooka-laylee-png_2345803_24: -304080574
+      SeekPng.com_yooka-laylee-png_2345803_2: -1983257339
+      SeekPng.com_yooka-laylee-png_2345803_4: 1892828424
+      SeekPng.com_yooka-laylee-png_2345803_13: -301759596
+      SeekPng.com_yooka-laylee-png_2345803_5: 277887477
+      SeekPng.com_yooka-laylee-png_2345803_17: -1645230305
+      SeekPng.com_yooka-laylee-png_2345803_22: 484975860
+      SeekPng.com_yooka-laylee-png_2345803_11: 554408010
+      SeekPng.com_yooka-laylee-png_2345803_21: 658404356
+      SeekPng.com_yooka-laylee-png_2345803_9: -475039085
+      SeekPng.com_yooka-laylee-png_2345803_6: -267969350
+      SeekPng.com_yooka-laylee-png_2345803_20: 1045934000
+      SeekPng.com_yooka-laylee-png_2345803_25: -2083479906
+      SeekPng.com_yooka-laylee-png_2345803_23: 1773925481
+      SeekPng.com_yooka-laylee-png_2345803_12: 1532166021
+      SeekPng.com_yooka-laylee-png_2345803_7: 1718710571
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
