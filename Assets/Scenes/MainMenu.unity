@@ -209,6 +209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VFX_Orbital
       objectReference: {fileID: 0}
+    - target: {fileID: 156988507301696795, guid: 9e8e03d00b5db1a41a83322e0718f9cd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 156988507301696799, guid: 9e8e03d00b5db1a41a83322e0718f9cd, type: 3}
       propertyPath: m_RootOrder
       value: 2

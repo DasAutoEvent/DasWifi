@@ -94,7 +94,7 @@ public class Player : MonoBehaviour
 
 	private void BoundEnemies()
 	{
-
+		
 	}
 
     internal void TriggerFire()
