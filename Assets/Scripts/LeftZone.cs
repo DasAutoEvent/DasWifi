@@ -11,6 +11,8 @@ public class LeftZone : MonoBehaviour
 	public GameObject PlayerPrefab;
 
 
+
+
 	Controller Contoller = null;
 	Player Player = null;
 
