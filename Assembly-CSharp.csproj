@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\LeftZone.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\RightZone.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
