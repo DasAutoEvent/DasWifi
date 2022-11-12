@@ -668,8 +668,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 71efa07738e91b2408d61d0834548764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoefMove: 0.02
   FireVFX: {fileID: 1202522996400206, guid: f87e7926fd589094b8a269e14b8bea5e, type: 3}
+  EnemiesToKill: 30
+  LoveRadius: 5
+  CoefMove: 0.02
 --- !u!1 &1984789704
 GameObject:
   m_ObjectHideFlags: 0
