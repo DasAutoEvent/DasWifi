@@ -5,6 +5,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Analytics;
 using UnityEngine.SceneManagement;
+using Random = UnityEngine.Random;
 
 public class Player : MonoBehaviour
 {
@@ -33,6 +34,9 @@ public class Player : MonoBehaviour
 
 
 	public GameObject FireVFX;
+	public GameObject ProgressVFX;
+	public GameObject WinObject;
+	public float ProgressSpawn = 0.5f;
 	public int EnemiesToKill = 30;
 	public float LoveRadius = 5.0f;
 
@@ -43,8 +47,12 @@ public class Player : MonoBehaviour
 	uint WalkAnimId = 1;
 	public float CoefMove = 0.001f;
 	float fCurrentAngle = 0.0f;
-	SpriteRenderer spriteRenderer;
 	Animator animator;
+
+	public bool isWin()
+	{
+		return this.EnemiesToKill <= 0;
+	}
 
 	public void setAngle(float fAng)
     {
@@ -73,7 +81,6 @@ public class Player : MonoBehaviour
         // Start is called before the first frame update
     void Start()
     {
-        this.spriteRenderer = GetComponent<SpriteRenderer>();
         this.animator = GetComponent<Animator>();
 	}
 
@@ -100,7 +107,38 @@ public class Player : MonoBehaviour
 
 	private void BoundEnemies()
 	{
-		
+		bool isKilledEnemy = true;
+		// code here
+
+		if (isKilledEnemy)
+		{
+			GameObject go =Instantiate(this.ProgressVFX, this.transform, true);
+			Vector3 vfx_pox = go.transform.position;
+			vfx_pox.x += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
+			vfx_pox.y += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
+
+			
+			go.transform.position = vfx_pox;
+			float fScaleRand = Random.Range(1.0f, 1.4f);
+			go.transform.localScale = new Vector3(fScaleRand, fScaleRand, fScaleRand);
+
+			EnemiesToKill--;
+			if (EnemiesToKill == 0)
+			{
+				// final
+				this.Finish();
+			}
+
+
+		}
+	}
+
+	private void Finish()
+	{
+		//this.animator.Play("FinishTransform");
+		this.GetComponent<Renderer>().enabled = false;
+		GameObject go = Instantiate(this.WinObject, this.transform.position, Quaternion.identity);
+		go.transform.localScale = new Vector3(5, 5, 5);
 	}
 
     internal void TriggerFire()
