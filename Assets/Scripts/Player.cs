@@ -149,13 +149,13 @@ public class Player : MonoBehaviour
 
 		// iterate over groups
 		uint maxGroup = 16;
-		for (uint i = 0; i < maxGroup; ++i)
+		for (uint i = 1; i < maxGroup; ++i)
 		{
-			GameObject goGroup = this.transform.Find("Group_" + i.ToString()).gameObject;
+			GameObject goGroup = this.Enemies.transform.Find("Group_" + i.ToString()).gameObject;
 			if (goGroup != null)
 			{
 				// testing 
-				for (uint j = 0; j < 5; ++j)
+				for (uint j = 1; j < 5; ++j)
 				{
 					GameObject goEnemy = goGroup.transform.Find("enemy_" + j.ToString()).gameObject;
 					if (goEnemy != null)
