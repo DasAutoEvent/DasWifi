@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1605320191952272764}
   - component: {fileID: 3248176108932721662}
   - component: {fileID: 847045918996102047}
+  - component: {fileID: 2324345188805050460}
   m_Layer: 0
   m_Name: Platformer_Adventurer
   m_TagString: Untagged
@@ -105,3 +106,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2324345188805050460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7213399686991899200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c1319ffa6966a4dbd388a88d262baa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Health: 15
