@@ -31,7 +31,15 @@ public class Player : MonoBehaviour
 		}
 	}
 
+	class FinishLife
+	{
+		public GameObject VFX { get; set; }
 
+		public float fTimeoutAnimation { get; set; }
+		public float fTotalAwait { get; set; }
+
+		public bool isPosiAnim { get; set; }
+	}
 
 	public GameObject FireVFX;
 	public GameObject ProgressVFX;
@@ -48,6 +56,7 @@ public class Player : MonoBehaviour
 	public float CoefMove = 0.001f;
 	float fCurrentAngle = 0.0f;
 	Animator animator;
+	FinishLife finishLife = null;
 
 	public bool isWin()
 	{
@@ -103,7 +112,32 @@ public class Player : MonoBehaviour
 				Destroy(fireLife.Go);
 			}
 		}
-    }
+
+		if (this.finishLife != null)
+		{
+			finishLife.fTimeoutAnimation -= Time.deltaTime;
+			if (finishLife.fTimeoutAnimation < 0.0f)
+			{
+				// launch move animation
+				//this.finishLife.VFX.GetComponent<Animator>().Play("Butter_fly_away", -1);
+				finishLife.fTimeoutAnimation = 999989.0f;
+				finishLife.isPosiAnim = true;
+			}
+			if (finishLife.isPosiAnim)
+			{
+				Vector3 pos = this.finishLife.VFX.transform.position;
+				pos.y += (10.0f * Time.deltaTime);
+				this.finishLife.VFX.transform.position = pos;
+			}
+			finishLife.fTotalAwait -= Time.deltaTime;
+			if (finishLife.fTotalAwait < 0.0f)
+			{
+				// move to titles here
+				SceneManager.LoadScene("Titles");
+			}
+		}
+
+	}
 
 	private void BoundEnemies()
 	{
@@ -135,10 +169,12 @@ public class Player : MonoBehaviour
 
 	private void Finish()
 	{
-		//this.animator.Play("FinishTransform");
-		this.GetComponent<Renderer>().enabled = false;
-		GameObject go = Instantiate(this.WinObject, this.transform.position, Quaternion.identity);
-		go.transform.localScale = new Vector3(5, 5, 5);
+		this.animator.Play("FinalAnim");
+
+		this.finishLife = new FinishLife();
+		this.finishLife.VFX = Instantiate(this.WinObject, this.transform.position, Quaternion.identity);
+		this.finishLife.fTotalAwait = 7.0f;
+		this.finishLife.fTimeoutAnimation = 4.0f;
 	}
 
     internal void TriggerFire()
@@ -199,4 +235,8 @@ public class Player : MonoBehaviour
 		}
 		return 1;
 	}
+    private void OnCollisionEnter2D(Collision2D collion)
+    {
+    
+    }
 }
