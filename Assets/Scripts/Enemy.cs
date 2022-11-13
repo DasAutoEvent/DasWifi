@@ -12,6 +12,13 @@ public class Enemy : MonoBehaviour
 {
     public int Health = 15;
 
+
+	public List<AudioClip> TakeDamageSounds;
+	public List<AudioClip> DeathSounds;
+
+	public string DisapAnim;
+
+	AudioSource audioSource;
 	Animator animator;
 
 
@@ -19,6 +26,7 @@ public class Enemy : MonoBehaviour
     void Start()
     {
         this.animator = GetComponent<Animator>();
+		this.audioSource = GetComponent<AudioSource>();
 	}
 
     // Update is called once per frame
@@ -37,15 +45,25 @@ public class Enemy : MonoBehaviour
     {
         this.Health -= value;
 
-        // trigger TRASH here
-        // trigger sound
+		int valueDam = Random.Range(0, this.DeathSounds.Count);
+		this.audioSource.clip = this.DeathSounds[valueDam];
+		
 
-        if (this.Health < 0)
+		// trigger TRASH here
+		// trigger sound
+
+		if (this.Health < 0)
         {
-            // trigger death
-        }
+			// trigger death
 
-    }
+			valueDam = Random.Range(0, this.TakeDamageSounds.Count);
+			this.audioSource.clip = this.TakeDamageSounds[valueDam];
+			this.animator.Play(DisapAnim);
+		}
+
+		this.audioSource.Play();
+
+	}
 
 
 

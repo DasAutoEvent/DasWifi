@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
 	public int TakeDamagemax = 5;
 
 	public GameObject Enemies;
-
+	public List<AudioClip> AttackSounds;
 
 
 
@@ -60,7 +60,9 @@ public class Player : MonoBehaviour
 	public float CoefMove = 0.001f;
 	float fCurrentAngle = 0.0f;
 	Animator animator;
+	AudioSource audioSource;
 	FinishLife finishLife = null;
+
 
 	public bool isWin()
 	{
@@ -95,6 +97,7 @@ public class Player : MonoBehaviour
 	void Start()
 	{
 		this.animator = GetComponent<Animator>();
+		this.audioSource = GetComponent<AudioSource>();
 	}
 
 	// Update is called once per frame
@@ -108,6 +111,12 @@ public class Player : MonoBehaviour
 				fireLife.State = 1;
 				GameObject go = Instantiate(this.FireVFX, this.transform.position, Quaternion.identity);
 				fireLife.Go = go;
+
+				// play attack
+				int value = Random.Range(0, this.AttackSounds.Count);
+				this.audioSource.clip = this.AttackSounds[value];
+				this.audioSource.Play();
+
 				this.BoundEnemies();
 			}
 
@@ -211,17 +220,22 @@ public class Player : MonoBehaviour
 
 		for (uint i = 0; i < uiKilledEnemies; ++i)
 		{
-			GameObject go = Instantiate(this.ProgressVFX, this.transform, true);
-			Vector3 vfx_pox = go.transform.position;
-			vfx_pox.x += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
-			vfx_pox.y += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
+			for (int h = 0; h < 4; ++h)
+			{
 
 
-			go.transform.position = vfx_pox;
-			float fScaleRand = Random.Range(1.0f, 1.4f);
-			go.transform.localScale = new Vector3(fScaleRand, fScaleRand, fScaleRand);
+				GameObject go = Instantiate(this.ProgressVFX, this.transform, true);
+				Vector3 vfx_pox = go.transform.position;
+				vfx_pox.x += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
+				vfx_pox.y += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
 
-			EnemiesToKill--;
+
+				go.transform.position = vfx_pox;
+				float fScaleRand = Random.Range(1.2f, 1.7f);
+				go.transform.localScale = new Vector3(fScaleRand, fScaleRand, fScaleRand);
+			}
+
+				EnemiesToKill--;
 			if (EnemiesToKill == 0)
 			{
 				// final
