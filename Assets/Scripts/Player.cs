@@ -170,7 +170,6 @@ public class Player : MonoBehaviour
 	private void Finish()
 	{
 		this.animator.Play("FinalAnim");
-		//this.GetComponent<Renderer>().enabled = false;
 
 		this.finishLife = new FinishLife();
 		this.finishLife.VFX = Instantiate(this.WinObject, this.transform.position, Quaternion.identity);
