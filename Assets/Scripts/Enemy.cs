@@ -21,6 +21,8 @@ public class Enemy : MonoBehaviour
 	AudioSource audioSource;
 	Animator animator;
 
+	public GameObject Trash;
+	public List<GameObject> Ugar;
 
         // Start is called before the first frame update
     void Start()
@@ -60,8 +62,24 @@ public class Enemy : MonoBehaviour
 			this.audioSource.clip = this.TakeDamageSounds[valueDam];
 			this.animator.Play(DisapAnim);
 		}
+		else
+		{
+			if (this.Ugar.Count != 0)
+			{
 
-		this.audioSource.Play();
+				// UGAR here
+				Vector3 curPos = this.transform.position;
+				curPos.x += Random.Range(-0.4f, 0.4f);
+				curPos.y += Random.Range(-0.4f, 0.4f);
+
+				int randValue = Random.Range(0, this.Ugar.Count);
+				GameObject go = Instantiate(this.Ugar[randValue], this.Trash.transform);
+				go.transform.position = curPos;
+			}
+
+			}
+
+			this.audioSource.Play();
 
 	}
 
