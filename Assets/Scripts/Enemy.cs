@@ -49,13 +49,13 @@ public class Enemy : MonoBehaviour
 
 		int valueDam = Random.Range(0, this.DeathSounds.Count);
 		this.audioSource.clip = this.DeathSounds[valueDam];
-		
+
 
 		// trigger TRASH here
 		// trigger sound
 
 		if (this.Health < 0)
-        {
+		{
 			// trigger death
 
 			valueDam = Random.Range(0, this.TakeDamageSounds.Count);
@@ -86,7 +86,7 @@ public class Enemy : MonoBehaviour
 
 
 			this.audioSource.Play();
-
+		}
 	}
 
 
