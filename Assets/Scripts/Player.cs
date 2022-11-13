@@ -220,17 +220,22 @@ public class Player : MonoBehaviour
 
 		for (uint i = 0; i < uiKilledEnemies; ++i)
 		{
-			GameObject go = Instantiate(this.ProgressVFX, this.transform, true);
-			Vector3 vfx_pox = go.transform.position;
-			vfx_pox.x += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
-			vfx_pox.y += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
+			for (int h = 0; h < 4; ++h)
+			{
 
 
-			go.transform.position = vfx_pox;
-			float fScaleRand = Random.Range(1.0f, 1.4f);
-			go.transform.localScale = new Vector3(fScaleRand, fScaleRand, fScaleRand);
+				GameObject go = Instantiate(this.ProgressVFX, this.transform, true);
+				Vector3 vfx_pox = go.transform.position;
+				vfx_pox.x += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
+				vfx_pox.y += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
 
-			EnemiesToKill--;
+
+				go.transform.position = vfx_pox;
+				float fScaleRand = Random.Range(1.2f, 1.7f);
+				go.transform.localScale = new Vector3(fScaleRand, fScaleRand, fScaleRand);
+			}
+
+				EnemiesToKill--;
 			if (EnemiesToKill == 0)
 			{
 				// final

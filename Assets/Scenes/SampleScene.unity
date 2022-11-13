@@ -3072,10 +3072,10 @@ MonoBehaviour:
   FireVFX: {fileID: 1202522996400206, guid: f87e7926fd589094b8a269e14b8bea5e, type: 3}
   ProgressVFX: {fileID: 1733280143}
   WinObject: {fileID: 6322915998053846407, guid: e92b4842307c9314ea50db0fc8434a50, type: 3}
-  ProgressSpawn: 4
-  EnemiesToKill: 3
+  ProgressSpawn: 0.5
+  EnemiesToKill: 20
   LoveRadius: 5
-  TakeDamage: 2
+  TakeDamage: 3
   TakeDamagemax: 5
   Enemies: {fileID: 1177306206}
   AttackSounds:
