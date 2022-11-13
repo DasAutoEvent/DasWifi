@@ -45,7 +45,11 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage( int value )
     {
-        this.Health -= value;
+		if (this.Health < 0)
+			return;
+
+
+		this.Health -= value;
 
 		int valueDam = Random.Range(0, this.DeathSounds.Count);
 		this.audioSource.clip = this.DeathSounds[valueDam];

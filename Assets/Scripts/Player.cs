@@ -167,7 +167,7 @@ public class Player : MonoBehaviour
 			}
 			catch (Exception ex)
 			{
-				Debug.Log(ex.Message);
+				//Debug.Log(ex.Message);
 			}
 			if (goGroup != null)
 			{
@@ -181,7 +181,7 @@ public class Player : MonoBehaviour
 					}
 					catch (Exception ex)
 					{
-						Debug.Log(ex.Message);
+						//Debug.Log(ex.Message);
 					}
 					if (goEnemy != null)
 					{
@@ -190,7 +190,7 @@ public class Player : MonoBehaviour
 						Vector2 enemy_pos = goEnemy.transform.position;
 						Vector2 diff = my - enemy_pos;
 						float fLenth = diff.magnitude;
-						Debug.Log(fLenth);
+						//Debug.Log(fLenth);
 						if (fLenth > this.LoveRadius)
 						{
 							// too far
