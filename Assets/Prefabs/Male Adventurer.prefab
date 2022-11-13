@@ -127,6 +127,14 @@ MonoBehaviour:
   - {fileID: 8300000, guid: b5df290de45ca7440b951b3994471887, type: 3}
   - {fileID: 8300000, guid: bb7c10e33875951408157606749a4a4a, type: 3}
   DisapAnim: Male_Adventurer_dissap
+  Trash: {fileID: 0}
+  Ugar:
+  - {fileID: 2229879891164390712, guid: ecb937353b0a16f43ae518ac859f8317, type: 3}
+  - {fileID: 905950065178562019, guid: 877030ad1f705c14c9e041779c49b6a8, type: 3}
+  - {fileID: 2849708851745768531, guid: 23760da5579e6cf48a2a11dad6d646dd, type: 3}
+  - {fileID: 8997761189724065863, guid: bea8b37c92ae7c740aa1ddc767ced479, type: 3}
+  - {fileID: 3017195503513383123, guid: c0c80aab7d607394883b7d215d656458, type: 3}
+  - {fileID: 2548006865836574836, guid: 4b082f917ea3fb2488eab0d4c0b7fe81, type: 3}
 --- !u!82 &-6896320204825425955
 AudioSource:
   m_ObjectHideFlags: 0
