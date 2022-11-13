@@ -68,20 +68,20 @@ public class Player : MonoBehaviour
 	}
 
 	public void setAngle(float fAng)
-    {
+	{
 		this.fCurrentAngle = fAng;
 
 		uint value = this.getIndexFromAngle(this.fCurrentAngle);
 		if (value != this.WalkAnimId)
 		{
-			this.animator.Play("Walk_" + this.getIndexFromAngle(this.fCurrentAngle).ToString(),-1);
+			this.animator.Play("Walk_" + this.getIndexFromAngle(this.fCurrentAngle).ToString(), -1);
 			this.WalkAnimId = value;
 		}
 	}
 
-    public void SetDirection(Vector2 dir)
-    {
-        this.transform.position += new Vector3( dir.x, dir.y) * CoefMove;
+	public void SetDirection(Vector2 dir)
+	{
+		this.transform.position += new Vector3(dir.x, dir.y) * CoefMove;
 
 		Vector3 camPos = Camera.main.transform.position;
 		camPos.x = this.transform.position.x;
@@ -91,19 +91,19 @@ public class Player : MonoBehaviour
 
 	}
 
-        // Start is called before the first frame update
-    void Start()
-    {
-        this.animator = GetComponent<Animator>();
+	// Start is called before the first frame update
+	void Start()
+	{
+		this.animator = GetComponent<Animator>();
 	}
 
-    // Update is called once per frame
-    void Update()
-    {
-		foreach( FireLife fireLife in fireLives)
+	// Update is called once per frame
+	void Update()
+	{
+		foreach (FireLife fireLife in fireLives)
 		{
 			fireLife.Update(Time.deltaTime);
-			if (fireLife.State ==0 && fireLife.PauseTime < 0.0f)
+			if (fireLife.State == 0 && fireLife.PauseTime < 0.0f)
 			{
 				fireLife.State = 1;
 				GameObject go = Instantiate(this.FireVFX, this.transform.position, Quaternion.identity);
@@ -151,15 +151,43 @@ public class Player : MonoBehaviour
 		uint maxGroup = 16;
 		for (uint i = 1; i < maxGroup; ++i)
 		{
-			GameObject goGroup = this.Enemies.transform.Find("Group_" + i.ToString()).gameObject;
+			GameObject goGroup = null;
+			try
+			{
+				goGroup = this.Enemies.transform.Find("Group_" + i.ToString()).gameObject;
+			}
+			catch (Exception ex)
+			{
+				Debug.Log(ex.Message);
+			}
 			if (goGroup != null)
 			{
 				// testing 
 				for (uint j = 1; j < 5; ++j)
 				{
-					GameObject goEnemy = goGroup.transform.Find("enemy_" + j.ToString()).gameObject;
+					GameObject goEnemy = null;
+					try
+					{
+						goEnemy = goGroup.transform.Find("enemy_" + j.ToString()).gameObject;
+					}
+					catch (Exception ex)
+					{
+						Debug.Log(ex.Message);
+					}
 					if (goEnemy != null)
 					{
+						// try access by rad
+						Vector2 my = this.transform.position;
+						Vector2 enemy_pos = goEnemy.transform.position;
+						Vector2 diff = my - enemy_pos;
+						float fLenth = diff.magnitude;
+						Debug.Log(fLenth);
+						if (fLenth > this.LoveRadius)
+						{
+							// too far
+							continue;
+						}
+
 						// attack them!
 						Enemy en = goEnemy.GetComponent<Enemy>();
 						if (en != null && !en.isDead())
@@ -176,19 +204,19 @@ public class Player : MonoBehaviour
 						}
 					}
 				}
-				
+
 			}
 		}
 
 
-		for( uint i = 0; i < uiKilledEnemies; ++i )
+		for (uint i = 0; i < uiKilledEnemies; ++i)
 		{
-			GameObject go =Instantiate(this.ProgressVFX, this.transform, true);
+			GameObject go = Instantiate(this.ProgressVFX, this.transform, true);
 			Vector3 vfx_pox = go.transform.position;
 			vfx_pox.x += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
 			vfx_pox.y += Random.Range(-this.ProgressSpawn, this.ProgressSpawn);
 
-			
+
 			go.transform.position = vfx_pox;
 			float fScaleRand = Random.Range(1.0f, 1.4f);
 			go.transform.localScale = new Vector3(fScaleRand, fScaleRand, fScaleRand);
@@ -216,8 +244,8 @@ public class Player : MonoBehaviour
 		this.finishLife.fTimeoutAnimation = 4.0f;
 	}
 
-    internal void TriggerFire()
-    {
+	internal void TriggerFire()
+	{
 		this.animator.Play("Attack_" + this.WalkAnimId.ToString());
 
 		FireLife fl = new FireLife();
@@ -274,8 +302,8 @@ public class Player : MonoBehaviour
 		}
 		return 1;
 	}
-    private void OnCollisionEnter2D(Collision2D collion)
-    {
-    
-    }
+	private void OnCollisionEnter2D(Collision2D collion)
+	{
+
+	}
 }

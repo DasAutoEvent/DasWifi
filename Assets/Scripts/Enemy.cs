@@ -10,7 +10,7 @@ using Random = UnityEngine.Random;
 
 public class Enemy : MonoBehaviour
 {
-    public int Health;
+    public int Health = 15;
 
 	Animator animator;
 
