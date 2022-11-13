@@ -126,6 +126,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 86b22b7473479534b8b4deac4fd1c553, type: 3}
   - {fileID: 8300000, guid: b5df290de45ca7440b951b3994471887, type: 3}
   - {fileID: 8300000, guid: bb7c10e33875951408157606749a4a4a, type: 3}
+  DisapAnim: Female__Adventurer_disap
 --- !u!82 &5571385639804459855
 AudioSource:
   m_ObjectHideFlags: 0

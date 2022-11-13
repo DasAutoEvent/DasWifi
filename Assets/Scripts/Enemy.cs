@@ -16,6 +16,8 @@ public class Enemy : MonoBehaviour
 	public List<AudioClip> TakeDamageSounds;
 	public List<AudioClip> DeathSounds;
 
+	public string DisapAnim;
+
 	AudioSource audioSource;
 	Animator animator;
 
@@ -56,6 +58,7 @@ public class Enemy : MonoBehaviour
 
 			valueDam = Random.Range(0, this.TakeDamageSounds.Count);
 			this.audioSource.clip = this.TakeDamageSounds[valueDam];
+			this.animator.Play(DisapAnim);
 		}
 
 		this.audioSource.Play();
