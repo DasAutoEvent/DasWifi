@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GroupEnemy.cs" />
     <Compile Include="Assets\Scripts\LeftZone.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_LightIntensityFade.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo.cs" />
@@ -67,6 +68,7 @@
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoHandler.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\VFX\Sources\25 sprite effects\Animation_seq.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Scripts\CFX_InspectorHelp.cs" />
     <Compile Include="Assets\VFX\Sources\JMO Assets\Cartoon FX (legacy)\Demo\Assets\CFX_Demo_RotateCamera.cs" />
@@ -83,7 +85,6 @@
     <Compile Include="Assets\Scripts\RightZone.cs" />
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoAimer.cs" />
     <Compile Include="Assets\VFX\Sources\CartoonCoffee\VFX Deluxe\Demo\Code\DemoTarget.cs" />
-    <Compile Include="Assets\Scripts\GroupEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\VFX\Sources\JMO Assets\Cartoon FX Remaster\CFXR Assets\Shaders\CFXR Particle Glow.shader" />
