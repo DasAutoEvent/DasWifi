@@ -1,9 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.3.32901.215
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{74998456-BDA0-A688-B64E-7DDB6A89C413}"
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{CDCACF99-031E-F5A1-A13A-F4C4364EF9FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFXRDemo", "CFXRDemo.csproj", "{D6361A56-8C45-8741-31A3-E3E0742DABA0}"
 EndProject
@@ -23,10 +21,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{74998456-BDA0-A688-B64E-7DDB6A89C413}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{74998456-BDA0-A688-B64E-7DDB6A89C413}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{74998456-BDA0-A688-B64E-7DDB6A89C413}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{74998456-BDA0-A688-B64E-7DDB6A89C413}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCACF99-031E-F5A1-A13A-F4C4364EF9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCACF99-031E-F5A1-A13A-F4C4364EF9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCACF99-031E-F5A1-A13A-F4C4364EF9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCACF99-031E-F5A1-A13A-F4C4364EF9FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6361A56-8C45-8741-31A3-E3E0742DABA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6361A56-8C45-8741-31A3-E3E0742DABA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6361A56-8C45-8741-31A3-E3E0742DABA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -54,8 +52,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8C509DAD-8606-447E-B0BC-500901029418}
 	EndGlobalSection
 EndGlobal
