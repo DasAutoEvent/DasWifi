@@ -47,6 +47,10 @@ public class Player : MonoBehaviour
 	public float ProgressSpawn = 0.5f;
 	public int EnemiesToKill = 30;
 	public float LoveRadius = 5.0f;
+	public int TakeDamage = 2;
+	public int TakeDamagemax = 5;
+
+	public GameObject Enemies;
 
 
 
@@ -141,10 +145,43 @@ public class Player : MonoBehaviour
 
 	private void BoundEnemies()
 	{
-		bool isKilledEnemy = true;
-		// code here
+		uint uiKilledEnemies = 0;
 
-		if (isKilledEnemy)
+		// iterate over groups
+		uint maxGroup = 16;
+		for (uint i = 0; i < maxGroup; ++i)
+		{
+			GameObject goGroup = this.transform.Find("Group_" + i.ToString()).gameObject;
+			if (goGroup != null)
+			{
+				// testing 
+				for (uint j = 0; j < 5; ++j)
+				{
+					GameObject goEnemy = goGroup.transform.Find("enemy_" + j.ToString()).gameObject;
+					if (goEnemy != null)
+					{
+						// attack them!
+						Enemy en = goEnemy.GetComponent<Enemy>();
+						if (en != null && !en.isDead())
+						{
+							int value = Random.Range(this.TakeDamage, this.TakeDamagemax);
+							en.TakeDamage(value);
+
+							if (en.isDead())
+							{
+								// YEY! 
+								// killed
+								uiKilledEnemies++;
+							}
+						}
+					}
+				}
+				
+			}
+		}
+
+
+		for( uint i = 0; i < uiKilledEnemies; ++i )
 		{
 			GameObject go =Instantiate(this.ProgressVFX, this.transform, true);
 			Vector3 vfx_pox = go.transform.position;
@@ -161,11 +198,13 @@ public class Player : MonoBehaviour
 			{
 				// final
 				this.Finish();
+				break;
 			}
 
 
 		}
 	}
+
 
 	private void Finish()
 	{
