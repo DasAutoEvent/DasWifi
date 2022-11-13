@@ -310,6 +310,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aura1
       objectReference: {fileID: 0}
+    - target: {fileID: 3714338358895842987, guid: 87841744371a9554984024e8e0928b39, type: 3}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4123337446391574675, guid: 87841744371a9554984024e8e0928b39, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
@@ -718,9 +722,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FireVFX: {fileID: 1202522996400206, guid: f87e7926fd589094b8a269e14b8bea5e, type: 3}
   ProgressVFX: {fileID: 1733280143}
-  WinObject: {fileID: 5517074588342786171, guid: 389b7c44e17ad364da9e75e9e03ee681, type: 3}
+  WinObject: {fileID: 6322915998053846407, guid: e92b4842307c9314ea50db0fc8434a50, type: 3}
   ProgressSpawn: 4
-  EnemiesToKill: 30
+  EnemiesToKill: 3
   LoveRadius: 5
   CoefMove: 0.02
 --- !u!1 &1984789704
@@ -766,7 +770,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2249011421327758089, guid: 8e628af497a08934ea6a304219929be9, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2249011421327758089, guid: 8e628af497a08934ea6a304219929be9, type: 3}
       propertyPath: m_LocalScale.x
@@ -830,7 +834,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8523885562355493082, guid: 8e628af497a08934ea6a304219929be9, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e628af497a08934ea6a304219929be9, type: 3}
@@ -855,7 +859,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6249805456324449123, guid: bd5062e68dd498543af73cdfa311f6d8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6249805456324449123, guid: bd5062e68dd498543af73cdfa311f6d8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -920,7 +924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6975933274706692217, guid: b45d6867889fee54dbc353c15e7666a7, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6975933274706692217, guid: b45d6867889fee54dbc353c15e7666a7, type: 3}
       propertyPath: m_LocalPosition.x
