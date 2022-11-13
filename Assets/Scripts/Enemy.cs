@@ -68,16 +68,22 @@ public class Enemy : MonoBehaviour
 			{
 
 				// UGAR here
-				Vector3 curPos = this.transform.position;
-				curPos.x += Random.Range(-0.4f, 0.4f);
-				curPos.y += Random.Range(-0.4f, 0.4f);
+				int randCount = Random.Range(5, 10);
+				for (int l = 0; l < randCount; ++l)
+				{
 
-				int randValue = Random.Range(0, this.Ugar.Count);
-				GameObject go = Instantiate(this.Ugar[randValue], this.Trash.transform);
-				go.transform.position = curPos;
+					Vector3 curPos = this.transform.position;
+					curPos.x += Random.Range(-0.8f, 0.8f);
+					curPos.y += Random.Range(-0.8f, 0.8f);
+
+					int randValue = Random.Range(0, this.Ugar.Count);
+					GameObject go = Instantiate(this.Ugar[randValue], this.Trash.transform);
+					go.transform.position = curPos;
+
+				}
 			}
 
-			}
+
 
 			this.audioSource.Play();
 
