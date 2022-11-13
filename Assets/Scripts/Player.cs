@@ -51,7 +51,7 @@ public class Player : MonoBehaviour
 	public int TakeDamagemax = 5;
 
 	public GameObject Enemies;
-
+	public List<AudioClip> AttackSounds;
 
 
 
@@ -60,7 +60,9 @@ public class Player : MonoBehaviour
 	public float CoefMove = 0.001f;
 	float fCurrentAngle = 0.0f;
 	Animator animator;
+	AudioSource audioSource;
 	FinishLife finishLife = null;
+
 
 	public bool isWin()
 	{
@@ -95,6 +97,7 @@ public class Player : MonoBehaviour
 	void Start()
 	{
 		this.animator = GetComponent<Animator>();
+		this.audioSource = GetComponent<AudioSource>();
 	}
 
 	// Update is called once per frame
@@ -108,6 +111,12 @@ public class Player : MonoBehaviour
 				fireLife.State = 1;
 				GameObject go = Instantiate(this.FireVFX, this.transform.position, Quaternion.identity);
 				fireLife.Go = go;
+
+				// play attack
+				int value = Random.Range(0, this.AttackSounds.Count);
+				this.audioSource.clip = this.AttackSounds[value];
+				this.audioSource.Play();
+
 				this.BoundEnemies();
 			}
 
