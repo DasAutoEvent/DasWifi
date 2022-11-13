@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02c1319ffa6966a4dbd388a88d262baa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Health: 0
+  Health: 15
   TakeDamageSounds:
   - {fileID: 8300000, guid: 22ffd6346caa3cb4fb26bb32a09fda6c, type: 3}
   DeathSounds:
